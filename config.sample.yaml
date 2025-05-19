@@ -1,0 +1,18 @@
+# per-node configuration
+node_name: "${HOSTNAME}"
+identifier: "${HOSTNAME}"
+
+telegram:
+  bot_token: "7556507378:AAGf4YcKuWi4H2zw6b77oEa89zcpTewBDsU"
+  chat_id: -4653776692
+
+tailscale:
+  enabled: true
+  endpoint: ""
+
+checks:
+  docker_health: true
+  zfs_health:    true
+
+logging:
+  path: "/mnt/cache/scripts/logs/agent.log"
