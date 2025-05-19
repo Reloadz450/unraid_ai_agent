@@ -3,8 +3,8 @@ node_name: "${HOSTNAME}"
 identifier: "${HOSTNAME}"
 
 telegram:
-  bot_token: "7556507378:AAGf4YcKuWi4H2zw6b77oEa89zcpTewBDsU"
-  chat_id: -4653776692
+  bot_token: "<YOUR_BOT_TOKEN>"
+  chat_id:   <YOUR_CHAT_ID>
 
 tailscale:
   enabled: true
